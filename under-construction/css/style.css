@@ -175,4 +175,6 @@ img {
 }
 .social__link img {
   vertical-align: middle;
+  width: 15%;
+  height: 15%;
 }
