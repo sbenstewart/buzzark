@@ -26,12 +26,15 @@
 
     $( "#button1" ).click(function() {
       $( "#extra1" ).toggle();
+      $('#button1').html('Show Less');
 });
     $( "#button2" ).click(function() {
       $( "#extra2" ).toggle();
+      $('#button2').html('Show Less');
 });
     $( "#button3" ).click(function() {
       $( "#extra3" ).toggle();
+      $('#button3').html('Show Less');
 });
 
   // Back to top button
