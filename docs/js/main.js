@@ -19,20 +19,8 @@
     
     $('.preloader-wrapper').delay(800).fadeOut(800);
     $('body').removeClass('preloader-site');
-    $( "#extra1" ).hide();
-    $( "#extra2" ).hide();
-    $( "#extra3" ).hide();
 });
 
-    $( "#button1" ).click(function() {
-      $( "#extra1" ).toggle();
-});
-    $( "#button2" ).click(function() {
-      $( "#extra2" ).toggle();
-});
-    $( "#button3" ).click(function() {
-      $( "#extra3" ).toggle();
-});
 
   // Back to top button
   $(window).scroll(function() {
