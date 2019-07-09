@@ -92,12 +92,13 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = 'https://script.google.com/macros/s/AKfycbxMruzRqrEbjv6YOtJ1gNqKcDqtnkN2o2JP_cxdpyOIIh5pFVNH/exec';
     }
     $.ajax({
-      type: "POST",
+      type: "GET",
       url: action,
       data: str,
+      dataType: json,
       success: function(msg) {
         // alert(msg);
         if (msg == 'OK') {
