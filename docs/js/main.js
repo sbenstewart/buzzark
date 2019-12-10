@@ -1,22 +1,12 @@
 (function ($) {
   "use strict";
 
-  // Preloader (if the #preloader div exists)
-  $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
-  });
-
   $(document).ready(function($) {
     var Body = $('body');
     Body.addClass('preloader-site');
 });
 
   $(window).on('load',function() {
-
     $('.preloader-wrapper').delay(800).fadeOut(800);
     $('body').removeClass('preloader-site');
     $( "#extra1" ).hide();
