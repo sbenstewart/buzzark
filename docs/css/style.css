@@ -92,8 +92,8 @@ h6 {
   color: #fff;
 }
 
+/* Prelaoder */
 
-<<<<<<< HEAD
 #preloader {
   position: fixed;
   top: 0;
@@ -142,8 +142,6 @@ h6 {
     transform: rotate(360deg);
   }
 }
-=======
->>>>>>> parent of 7a54b05... non company preloader
 
 /*--------------------------------------------------------------
 # Header
