@@ -204,6 +204,13 @@ h6 {
 #intro .intro-img {
   width: 50%;
   float: right;
+  position: absolute;
+}
+
+#intro .intro-img img{
+  position: absolute;
+  left: 33em;
+  width: 100%;
 }
 
 #intro .intro-info {
@@ -258,6 +265,7 @@ h6 {
   border-color: #ed3954;
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1383,6 +1391,10 @@ h6 {
     width: 80%;
     float: none;
     margin: 0 auto 25px auto;
+  }
+
+  #intro .intro-img img{
+    display: none;
   }
 
   #intro .intro-info {
