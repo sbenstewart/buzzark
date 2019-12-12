@@ -8,6 +8,7 @@
 
   $(window).on('load',function() {
     $('.preloader-wrapper').delay(800).fadeOut(800);
+    $('.fixed-top').fadeOut('slow');
     $('body').removeClass('preloader-site');
     $( "#extra1" ).hide();
     $( "#extra2" ).hide();
@@ -31,8 +32,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
+      $('.fixed-top').fadeIn('slow');
     } else {
       $('.back-to-top').fadeOut('slow');
+      $('.fixed-top').fadeOut('slow');
     }
   });
   $('.back-to-top').click(function(){
