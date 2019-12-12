@@ -39,6 +39,11 @@ body.preloader-site {
   transform: translate(-50%, -50%);
 }
 
+.preloader-wrapper .preloader .preloader-image{
+  height: 100%;
+  width: 100%;
+}
+
 a {
   color: #ed3954;
   transition: 0.5s;
