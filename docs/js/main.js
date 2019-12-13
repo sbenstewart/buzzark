@@ -193,20 +193,4 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
     items: 1
   });
 
-  //html form into google sheets
-  var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbxMruzRqrEbjv6YOtJ1gNqKcDqtnkN2o2JP_cxdpyOIIh5pFVNH/exec'
-
-  $('#submit-form').on('click', function(e) {
-    e.preventDefault();
-    var jqxhr = $.ajax({
-      url: url,
-      method: "GET",
-      dataType: "json",
-      data: $form.serializeObject()
-    }).success(
-      // do something
-    );
-  })
-
 })(jQuery);

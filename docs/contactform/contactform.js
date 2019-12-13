@@ -90,30 +90,23 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize();
-    var action = $(this).attr('action');
-    if( ! action ) {
-      action = 'https://script.google.com/macros/s/AKfycbxMruzRqrEbjv6YOtJ1gNqKcDqtnkN2o2JP_cxdpyOIIh5pFVNH/exec';
-    }
-    $.ajax({
-      type: "GET",
-      url: action,
-      data: str,
-      dataType: json,
-      success: function(msg) {
-        // alert(msg);
-        if (msg == 'OK') {
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
-        }
-
-      }
-    });
+    var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbxMruzRqrEbjv6YOtJ1gNqKcDqtnkN2o2JP_cxdpyOIIh5pFVNH/exec'
+    var jqxhr = $.ajax({
+      url: url,
+      method: "GET",
+      dataType: "json",
+      data: $form.serializeObject()
+    }).success(
+      messageSent()
+    );
     return false;
   });
+
+  function messageSent() {
+    $("#sendmessage").addClass("show");
+    $("#errormessage").removeClass("show");
+    $('.contactForm').find("input, textarea").val("");
+}
 
 });
