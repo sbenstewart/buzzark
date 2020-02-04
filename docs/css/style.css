@@ -155,7 +155,7 @@ h6 {
   height: 110%;
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.jpeg") center bottom no-repeat;
+  background: url("../img/intro-bg.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -175,19 +175,18 @@ h6 {
 #intro .intro-info {
   width: 45%;
   vertical-align: middle;
-    display: inline-block;
-    height: 0%;
-    position: absolute;
-    top: 15%;
-    bottom: 0%;
-    margin: auto;
+  display: inline-block;
+  height: 0%;
+  position: absolute;
+  top: 40%;
+  margin: auto;
 }
 
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
   margin-right: 40px;
-  font-size: 35px;
+  font-size: 3vw+6vh;
   font-weight: 700;
   /*font-family: 'Bungee';*/
 }
@@ -499,7 +498,7 @@ h6 {
 }
 
 #about .about-container p {
-  font-size: 1.25em;
+  font-size: 15px;
 }
 
 #about .about-container p:last-child {
@@ -1390,7 +1389,7 @@ h6 {
   }
 
   #intro .intro-info h2 {
-    font-size: 34px;
+    font-size: 3vw+6vh;
     margin-bottom: 30px;
   }
 
