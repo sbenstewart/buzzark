@@ -146,6 +146,12 @@ h6 {
 .main-pages {
   margin-top: 60px;
 }
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+  transform: rotate(90deg);
+}
+
 
 /*--------------------------------------------------------------
 # Intro Section
