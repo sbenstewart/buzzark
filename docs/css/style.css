@@ -377,7 +377,6 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
   text-decoration: none;
 }
 
@@ -478,7 +477,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ed395447;
+  background: #ed395424;
 }
 
 /* About Us Section
@@ -664,8 +663,8 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #ed395480;
+  border-color: #ed395480;
 }
 
 #why-us .card i {
@@ -741,7 +740,7 @@ h6 {
   color: #ed3954;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ed395447;
+  background: #ed395424;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1041,8 +1040,8 @@ h6 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #ed395467;
-  border-bottom: 1px solid #ed395467;
+  border-right: 1px solid #ed395424;
+  border-bottom: 1px solid #ed395424;
   overflow: hidden;
   background: #fff;
   height: 160px;
@@ -1183,7 +1182,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #000000;
   cursor: pointer;
 }
 
@@ -1224,7 +1223,7 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #ed395447;
+  color: #ed395424;
 }
 
 #footer .footer-top .social-links a {
@@ -1243,7 +1242,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #000000;
   color: #fff;
 }
 
@@ -1275,11 +1274,11 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ed395447;
+  color: #ed395424;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #ed395424;
 }
 
 #footer .footer-top .footer-contact {
