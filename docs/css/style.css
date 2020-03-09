@@ -266,7 +266,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #000000;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -309,7 +309,7 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #004289;
+  color: #000000;
 }
 
 .main-nav .drop-down ul a:hover,
@@ -356,7 +356,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgb(0, 0, 0);
   transition: 0.4s;
 }
 
@@ -377,7 +377,6 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
   text-decoration: none;
 }
 
@@ -423,7 +422,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #000000;
 }
 
 .mobile-nav-overly {
@@ -433,7 +432,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background: #ed395424;
   overflow: hidden;
   display: none;
 }
@@ -478,7 +477,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: #ed395424;
 }
 
 /* About Us Section
@@ -643,7 +642,7 @@ h6 {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #000000;
 }
 
 #why-us .section-header h3,
@@ -652,8 +651,8 @@ h6 {
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #3a4a5a;
+  border-color: #3a4a5a;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -664,14 +663,14 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #ed395480;
+  border-color: #ed395480;
 }
 
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #ed3954;
 }
 
 #why-us .card h5 {
@@ -689,7 +688,7 @@ h6 {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  border-bottom: #3a4a5a solid 2px;
 }
 
 #why-us .card .readmore:hover {
@@ -741,7 +740,7 @@ h6 {
   color: #ed3954;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ecf5ff;
+  background: #ed395424;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -870,7 +869,7 @@ h6 {
 #testimonials {
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  background: #004a99;
+  background: #000000;
 }
 
 #testimonials .section-header {
@@ -1024,8 +1023,6 @@ h6 {
 }
 
 #clients .clients-wrap {
-  border-top: 1px solid #d6eaff;
-  border-left: 1px solid #d6eaff;
   margin-bottom: 30px;
 }
 
@@ -1043,8 +1040,8 @@ h6 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #d6eaff;
-  border-bottom: 1px solid #d6eaff;
+  border-right: 1px solid #ed395424;
+  border-bottom: 1px solid #ed395424;
   overflow: hidden;
   background: #fff;
   height: 160px;
@@ -1185,7 +1182,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #000000;
   cursor: pointer;
 }
 
@@ -1194,14 +1191,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #000000;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #000000;
   padding: 60px 0 30px 0;
 }
 
@@ -1226,7 +1223,7 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #ecf5ff;
+  color: #ed395424;
 }
 
 #footer .footer-top .social-links a {
@@ -1245,7 +1242,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #000000;
   color: #fff;
 }
 
@@ -1277,11 +1274,11 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #ed395424;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #ed395424;
 }
 
 #footer .footer-top .footer-contact {
@@ -1327,7 +1324,7 @@ h6 {
 }
 
 #footer .credits a {
-  color: #bfddfe;
+  color: #ed3954;
 }
 
 #footer .credits a:hover {
