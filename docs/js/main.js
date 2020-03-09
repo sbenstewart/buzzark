@@ -147,24 +147,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
   return $(element).animate( {opacity:1}, fadeIn ).delay( visible ).animate( {opacity:0}, fadeOut, onComplete);
 }
 
-  // Navigation active state on scroll
-  var nav_sections = $('section');
-  var main_nav = $('.main-nav, .mobile-nav');
-  var main_nav_height = $('#header').outerHeight();
-
-  $(window).on('scroll', function () {
-    var cur_pos = $(this).scrollTop();
-
-    nav_sections.each(function() {
-      var top = $(this).offset().top - main_nav_height,
-          bottom = top + $(this).outerHeight();
-
-      if (cur_pos >= top && cur_pos <= bottom) {
-        main_nav.find('li').removeClass('active');
-        main_nav.find('a[href="#'+$(this).attr('id')+'"]').parent('li').addClass('active');
-      }
-    });
-  });
+  
 
   // jQuery counterUp (used in Whu Us section)
   $('[data-toggle="counter-up"]').counterUp({
